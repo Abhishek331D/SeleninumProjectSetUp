@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">AmazonSuite</th></tr>
+<tr><td><a href="#t0">AmazonTest</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">55,231</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AmazonSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">AmazonTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCases.AmazonTCS__1</td><td><a href="#m0">withValidCred</a></td><td rowspan="1">1794543930325</td><td rowspan="1">10419</td></tr><tr><th colspan="4">AmazonTest &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">TestCases.AmazonTCS__1</td><td><a href="#m1">withValidCred</a></td><td rowspan="2">1794543894357</td><td rowspan="2">10691</td></tr><tr class="retriedeven"><td><a href="#m2">withValidCred</a></td></tr></tbody>
+</table>
+<h2>AmazonTest</h2><h3 id="m0">TestCases.AmazonTCS__1#withValidCred</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Website Launched<br/>HoveroverOnAcc&List<br/>Click on sign button successful</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.id: ap_email, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_email&quot;}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;26.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 29608, ms:edgeOptions: {debuggerAddress: localhost:55916}, msedge: {msedgedriverVersion: 157.0.4341.46 (a0c6bd61d788..., userDataDir: C:\Users\ARPITHA\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55916/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e1a1d21d90671bccd68150ed46edb5e6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at TestCases.AmazonTCS__1.withValidCred(AmazonTCS__1.java:96)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCases.AmazonTCS__1#withValidCred</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Website Launched<br/>HoveroverOnAcc&List<br/>Click on sign button successful</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.id: ap_email, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_email&quot;}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;26.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 15404, ms:edgeOptions: {debuggerAddress: localhost:60691}, msedge: {msedgedriverVersion: 157.0.4341.46 (a0c6bd61d788..., userDataDir: C:\Users\ARPITHA\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60691/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 332db9210e554b3b2a707d7d0b19ba92
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at TestCases.AmazonTCS__1.withValidCred(AmazonTCS__1.java:96)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCases.AmazonTCS__1#withValidCred</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Website Launched<br/>HoveroverOnAcc&List<br/>Click on sign button successful</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.id: ap_email, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_email&quot;}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;26.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 157.0.4341.46, fedcm:accounts: true, goog:processID: 396, ms:edgeOptions: {debuggerAddress: localhost:64172}, msedge: {msedgedriverVersion: 157.0.4341.46 (a0c6bd61d788..., userDataDir: C:\Users\ARPITHA\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64172/devtoo..., se:cdpVersion: 157.0.4341.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6320b196afa90a37e23ed037c70ad47c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at TestCases.AmazonTCS__1.withValidCred(AmazonTCS__1.java:96)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
